@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(242, 245, 244);
+  z-index: 1;
+}
+.Name {
+  justify-content: center;
+  background-color: transparent;
+  margin-top: 12px;
+  margin-left: 60px;
+}
+.Title {
+  background-color: transparent;
+  color: black;
+}
+.Navlist {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: transparent;
+}
