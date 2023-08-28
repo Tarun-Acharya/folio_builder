@@ -1,16 +1,10 @@
-*
-{
-  background-color: #282c34;
- 
-  
+* {
+  background-color: #fffdfa;
 }
 .App {
   text-align: center;
   display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 150px;
- 
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-

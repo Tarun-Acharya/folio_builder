@@ -1,0 +1,6 @@
+.Card {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  border-radius: 20px;
+}
