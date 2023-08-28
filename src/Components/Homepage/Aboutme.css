@@ -7,7 +7,7 @@
 
   align-items: center;
   height: 400px;
-  width: 400px;
+  width: 300px;
   border: 0px solid;
   border-radius: 0px;
   /*border-color: rgba(190, 148, 229, 0.167);*/
@@ -22,4 +22,14 @@
 .h2,
 .p {
   color: black;
+}
+.resume{
+  font-style: bold;
+  color: black;
+  background-color :white;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 10px;
+  padding:5px
+
 }
