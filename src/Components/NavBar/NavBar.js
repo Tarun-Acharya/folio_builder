@@ -3,7 +3,7 @@ import "./NavBar.css";
 import NavItem from "./NavItem";
 class NavBar extends Component {
   state = {
-    links: ["About Me", "Resume", "Projects", "Contact"],
+    links: ["Home", "About Me", "Resume", "Projects", "Contact"],
   };
   render() {
     return (
