@@ -1,14 +1,4 @@
-* {
-  background-color: #fffdfa;
-}
 .App {
   display: flex;
   flex-direction: column;
-}
-.AppElements {
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
