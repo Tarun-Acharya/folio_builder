@@ -2,10 +2,10 @@ import React from "react";
 import "./NavItem.css";
 import { Link } from "react-router-dom";
 
-function NavItem() {
+function NavItem(props) {
   return (
-    <Link className="text" to={"/" + this.props.name}>
-      {this.props.name}
+    <Link className="text" to={"/" + props.name}>
+      {props.name}
     </Link>
   );
 }

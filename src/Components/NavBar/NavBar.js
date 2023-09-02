@@ -3,7 +3,7 @@ import "./NavBar.css";
 import NavItem from "./NavItem";
 
 function NavBar() {
-  const links = ["Home", "About Me", "Resume", "Projects", "Contact"];
+  const links = ["Home", "About Me", "Resume", "Work", "Projects", "Contact"];
 
   return (
     <div className="navbar">

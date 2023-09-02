@@ -1,7 +1,6 @@
 import React from "react";
 import "./Title.css";
 function Title(props) {
-  console.log(props.details);
   return (
     <div className="title_page">
       <img src={props.details.pic} className="title_image" alt="title_image" />
