@@ -2,11 +2,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  position: absolute;
+
   width: 100%;
   height: 100px;
   background-color: rgb(242, 245, 244);
-  z-index: 1;
 }
 .Name {
   justify-content: center;
