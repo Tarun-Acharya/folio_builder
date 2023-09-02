@@ -1,4 +1,6 @@
 .text {
   background-color: transparent;
   margin: 30px;
+  text-decoration: none;
+  color: black;
 }
