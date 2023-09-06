@@ -1,3 +1,14 @@
 .MainProject{
-    color: rgb(56, 50, 50);
+    height: 400px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.projectnames{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
