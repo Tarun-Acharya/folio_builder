@@ -1,0 +1,14 @@
+.MainProject{
+    height: 400px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.projectnames{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
