@@ -1,8 +1,11 @@
 import React from "react";
 import ExpCard from "./ExpCard";
+import { useDispatch } from "react-redux";
 import "./Work.css";
+import { workActions } from "../../store";
 
 function Work() {
+  const dispatch = useDispatch();
   const workEx = [
     {
       Company: "ABC",
@@ -37,10 +40,12 @@ function Work() {
       To: "Present",
     },
   ];
+  dispatch(workActions.addExperience(workEx));
+
   return (
     <div className="Work">
       {workEx.map((workE) => (
-        <ExpCard work={workE}></ExpCard>
+        <ExpCard key={workE} work={workE}></ExpCard>
       ))}
     </div>
   );

@@ -2,8 +2,6 @@ import React from "react";
 import "./ExpCard.css";
 import { Link } from "react-router-dom";
 function ExpCard(props) {
-  console.log(props.work);
-
   return (
     <div className="top">
       <Link to={"/Work/" + props.work.Company} className="link">

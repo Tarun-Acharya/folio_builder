@@ -1,19 +1,22 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import "./WorkPage.css";
+import { useSelector } from "react-redux";
 function WorkPage() {
   const { company } = useParams();
+  const workExperience = useSelector(
+    (state) =>
+      state.workExperiences.filter((work) => work.Company === company)[0]
+  );
+
   return (
     <div className="WorkPage">
-      <h1> {company} </h1>
-      <h2> From 2010 - To 2015 </h2>
-      <p>
-        "Finding the truth wouldn't be easy, that's for sure. Then there was the
-        question of whether or not Jane really wanted to know the truth. That's
-        the thing that bothered her most. It wasn't the difficulty of actually
-        finding out what happened that was the obstacle, but having to live with
-        that information once it was found."
-      </p>
+      <h1> {workExperience.Company} </h1>
+      <h2> {workExperience.Role} </h2>
+      <h3>
+        From {workExperience.From} - To {workExperience.To}
+      </h3>
+      <p>{workExperience.Description}</p>
     </div>
   );
 }
