@@ -12,7 +12,7 @@ function NavBar() {
       </div>
       <div className="Navlist">
         {links.map((link) => (
-          <NavItem name={link} />
+          <NavItem key={link} name={link} />
         ))}
       </div>
     </div>

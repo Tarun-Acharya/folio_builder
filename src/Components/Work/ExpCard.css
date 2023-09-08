@@ -1,0 +1,15 @@
+.link {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  padding-left: 10px;
+}
+.top {
+  display: flex;
+  width: 60%;
+  height: auto;
+  margin: 5px;
+  border: 1px solid black;
+}
